@@ -33,13 +33,18 @@
             "dealerdirect/phpcodesniffer-composer-installer": true
         }
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/textagroup/xhprof"
+        }
+    ],
     "require": {
         "php": ">=7.2.5",
         "composer/ca-bundle": "^1.2",
         "composer/semver": "^1.3.0",
         "davaxi/sparkline": "~2.0",
         "geoip2/geoip2": "^2.8",
-        "lox/xhprof": "dev-master",
         "matomo/cache": "~2.0",
         "matomo/decompress": "~2.0",
         "matomo/device-detector": "~6.0",
@@ -62,6 +67,7 @@
         "szymach/c-pchart": "~3.0.13",
         "tecnickcom/tcpdf": "~6.0",
         "tedivm/jshrink": "~v1.4.0",
+        "textagroup/xhprof": "dev-master",
         "twig/twig": "^3.0",
         "wikimedia/less.php": "^3.0"
     },

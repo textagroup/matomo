@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "264a4cc5f19355e9946a291646289a03",
+    "content-hash": "3ff5d514213434e0ec6d1151a5d3ddde",
     "packages": [
         {
             "name": "composer/ca-bundle",
@@ -274,50 +274,6 @@
                 "source": "https://github.com/maxmind/GeoIP2-php/tree/v2.13.0"
             },
             "time": "2022-08-05T20:32:58+00:00"
-        },
-        {
-            "name": "lox/xhprof",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/lox/xhprof.git",
-                "reference": "c64571f892bda1298bad9c5e94ede0bc3f0e4627"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/lox/xhprof/zipball/c64571f892bda1298bad9c5e94ede0bc3f0e4627",
-                "reference": "c64571f892bda1298bad9c5e94ede0bc3f0e4627",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.2.0"
-            },
-            "default-branch": true,
-            "bin": [
-                "bin/xhprofile"
-            ],
-            "type": "library",
-            "autoload": {
-                "files": [
-                    "xhprof_lib/utils/xhprof_lib.php",
-                    "xhprof_lib/utils/xhprof_runs.php"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "Apache-2.0"
-            ],
-            "description": "XHProf: A Hierarchical Profiler for PHP",
-            "homepage": "http://pecl.php.net/package/xhprof",
-            "keywords": [
-                "performance",
-                "profiling"
-            ],
-            "support": {
-                "source": "https://github.com/lox/xhprof/tree/master"
-            },
-            "abandoned": true,
-            "time": "2015-08-31T22:07:48+00:00"
         },
         {
             "name": "matomo/cache",
@@ -3398,6 +3354,48 @@
             "time": "2020-11-30T18:10:21+00:00"
         },
         {
+            "name": "textagroup/xhprof",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/textagroup/xhprof.git",
+                "reference": "17957c32a4cd1d42e42d92f173c230458a4348f5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/textagroup/xhprof/zipball/17957c32a4cd1d42e42d92f173c230458a4348f5",
+                "reference": "17957c32a4cd1d42e42d92f173c230458a4348f5",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2.0"
+            },
+            "default-branch": true,
+            "bin": [
+                "bin/xhprofile"
+            ],
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "xhprof_lib/utils/xhprof_lib.php",
+                    "xhprof_lib/utils/xhprof_runs.php"
+                ]
+            },
+            "license": [
+                "Apache-2.0"
+            ],
+            "description": "XHProf: A Hierarchical Profiler for PHP",
+            "homepage": "http://pecl.php.net/package/xhprof",
+            "keywords": [
+                "performance",
+                "profiling"
+            ],
+            "support": {
+                "source": "https://github.com/textagroup/xhprof/tree/master"
+            },
+            "time": "2024-05-08T22:40:25+00:00"
+        },
+        {
             "name": "twig/twig",
             "version": "v3.9.3",
             "source": {
@@ -5322,9 +5320,9 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "lox/xhprof": 20,
         "matomo/referrer-spam-list": 20,
-        "matomo/searchengine-and-social-list": 20
+        "matomo/searchengine-and-social-list": 20,
+        "textagroup/xhprof": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
